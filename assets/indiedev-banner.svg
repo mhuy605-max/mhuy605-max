@@ -1,29 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="indiedev.css banner">
-  <rect width="1200" height="360" fill="#050505"/>
-  <g stroke="#242424" stroke-width="1" opacity="0.75">
-    <path d="M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200M0 240H1200M0 280H1200M0 320H1200"/>
-    <path d="M40 0V360M80 0V360M120 0V360M160 0V360M200 0V360M240 0V360M280 0V360M320 0V360M360 0V360M400 0V360M440 0V360M480 0V360M520 0V360M560 0V360M600 0V360M640 0V360M680 0V360M720 0V360M760 0V360M800 0V360M840 0V360M880 0V360M920 0V360M960 0V360M1000 0V360M1040 0V360M1080 0V360M1120 0V360M1160 0V360"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="indiedev.css animated CRT banner">
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#191919" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" opacity="0"/>
+      <rect y="2" width="4" height="2" fill="#000" opacity=".24"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0" result="g"/>
+      <feComponentTransfer in="g"><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer>
+    </filter>
+    <clipPath id="screen"><rect x="28" y="28" width="1144" height="364" rx="8"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="420" fill="#030303"/>
+  <rect x="18" y="18" width="1164" height="384" rx="11" fill="#070707" stroke="#f2f2f2" stroke-width="2"/>
+  <rect x="28" y="28" width="1144" height="364" rx="8" fill="url(#grid)"/>
+
+  <g clip-path="url(#screen)">
+    <rect x="28" y="28" width="1144" height="364" filter="url(#noise)" opacity=".8"/>
+
+    <!-- top chrome -->
+    <rect x="28" y="28" width="1144" height="42" fill="#0a0a0a"/>
+    <circle cx="52" cy="49" r="5" fill="#fff"/>
+    <circle cx="70" cy="49" r="5" fill="#777"/>
+    <circle cx="88" cy="49" r="5" fill="#333"/>
+    <text x="112" y="54" fill="#8a8a8a" font-family="monospace" font-size="14" letter-spacing="2">indiedev.css — profile.README</text>
+    <text x="1042" y="54" fill="#5f5f5f" font-family="monospace" font-size="12">LOCAL://01</text>
+
+    <!-- moon -->
+    <circle cx="1015" cy="142" r="55" fill="none" stroke="#d8d8d8" stroke-width="2" opacity=".9" filter="url(#glow)"/>
+    <circle cx="995" cy="124" r="8" fill="#222"/><circle cx="1034" cy="154" r="12" fill="#191919"/><circle cx="1003" cy="165" r="5" fill="#202020"/>
+    <path d="M945 145h140M955 134h122M962 156h112" stroke="#555" stroke-width="2" opacity=".55">
+      <animate attributeName="transform" values="translate(0 0);translate(8 0);translate(-5 0);translate(0 0)" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- city -->
+    <g fill="#111" stroke="#3b3b3b" stroke-width="1">
+      <path d="M760 300v-66h34v66zm39 0v-92h44v92zm49 0v-54h30v54zm35 0v-105h55v105zm60 0v-74h31v74zm36 0v-118h49v118zm54 0v-70h33v70zm38 0v-96h45v96zm50 0v-58h39v58z"/>
+    </g>
+    <g fill="#bdbdbd" opacity=".7">
+      <rect x="810" y="227" width="5" height="5"/><rect x="827" y="246" width="5" height="5"/><rect x="899" y="222" width="5" height="5"/><rect x="920" y="250" width="5" height="5"/>
+      <rect x="996" y="205" width="5" height="5"/><rect x="1015" y="233" width="5" height="5"/><rect x="1092" y="224" width="5" height="5"/><rect x="1131" y="264" width="5" height="5"/>
+      <animate attributeName="opacity" values=".25;.9;.4;.8;.25" dur="3.2s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- pixel figure -->
+    <g transform="translate(894 288)" fill="#d8d8d8" opacity=".9">
+      <rect x="16" y="0" width="18" height="6"/><rect x="10" y="6" width="30" height="6"/><rect x="8" y="12" width="34" height="12"/>
+      <rect x="13" y="24" width="24" height="8"/><rect x="7" y="32" width="36" height="26"/><rect x="1" y="39" width="8" height="24"/>
+      <rect x="41" y="39" width="8" height="24"/><rect x="11" y="58" width="11" height="26"/><rect x="28" y="58" width="11" height="26"/>
+    </g>
+
+    <!-- title shadow/glitch layers -->
+    <text x="72" y="175" fill="#2b2b2b" font-family="monospace" font-size="92" font-weight="700" letter-spacing="-5">indiedev.css</text>
+    <text x="68" y="171" fill="#ffffff" font-family="monospace" font-size="92" font-weight="700" letter-spacing="-5" filter="url(#glow)">indiedev.css</text>
+    <text x="70" y="171" fill="#777" font-family="monospace" font-size="92" font-weight="700" letter-spacing="-5" opacity=".35">indiedev.css
+      <animate attributeName="x" values="70;76;66;70;70" keyTimes="0;.04;.08;.12;1" dur="4.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.55;.25;0;0" keyTimes="0;.04;.08;.12;1" dur="4.4s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- glitch bars -->
+    <g fill="#fff" opacity=".72">
+      <rect x="58" y="118" width="420" height="3"><animate attributeName="x" values="58;210;58" dur="3.8s" repeatCount="indefinite"/></rect>
+      <rect x="390" y="182" width="250" height="5"><animate attributeName="width" values="250;90;310;250" dur="2.6s" repeatCount="indefinite"/></rect>
+      <rect x="670" y="103" width="145" height="2"><animate attributeName="x" values="670;760;670" dur="4.1s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <text x="72" y="228" fill="#c5c5c5" font-family="monospace" font-size="21" letter-spacing="3">SOFTWARE ENGINEER / GAME DEV / CREATIVE TECHNOLOGY</text>
+    <text x="72" y="267" fill="#777" font-family="monospace" font-size="16" letter-spacing="4">CODE // GAMES // MUSIC // SYSTEMS</text>
+
+    <!-- terminal line -->
+    <text x="72" y="323" fill="#9a9a9a" font-family="monospace" font-size="15">root@indiedev:~$ build --without-safe-mode</text>
+    <rect x="414" y="309" width="10" height="18" fill="#fff">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- progress -->
+    <rect x="72" y="349" width="392" height="6" fill="#1c1c1c"/>
+    <rect x="72" y="349" height="6" fill="#fff">
+      <animate attributeName="width" values="0;392;392" keyTimes="0;.78;1" dur="5.6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="478" y="356" fill="#666" font-family="monospace" font-size="12">BUILDING...</text>
+
+    <!-- moving scan highlight -->
+    <rect x="28" y="28" width="1144" height="44" fill="#fff" opacity=".025">
+      <animate attributeName="y" values="28;348;28" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="28" y="28" width="1144" height="364" fill="url(#scan)" opacity=".45"/>
   </g>
 
-  <rect x="34" y="30" width="1132" height="300" fill="none" stroke="#f2f2f2" stroke-width="2"/>
-  <rect x="54" y="50" width="14" height="14" fill="#f2f2f2"/>
-  <rect x="78" y="50" width="14" height="14" fill="#777"/>
-  <rect x="102" y="50" width="14" height="14" fill="#333"/>
-  <text x="142" y="63" fill="#8a8a8a" font-family="monospace" font-size="16" letter-spacing="3">PROFILE://LOCALHOST</text>
-
-  <text x="72" y="175" fill="#2b2b2b" font-family="monospace" font-size="92" font-weight="700" letter-spacing="-4">indiedev.css</text>
-  <text x="66" y="169" fill="#ffffff" font-family="monospace" font-size="92" font-weight="700" letter-spacing="-4">indiedev.css</text>
-  <rect x="68" y="188" width="760" height="5" fill="#ffffff"/>
-  <rect x="850" y="184" width="235" height="13" fill="#ffffff"/>
-  <rect x="1048" y="180" width="70" height="21" fill="#050505"/>
-
-  <text x="70" y="242" fill="#b6b6b6" font-family="monospace" font-size="22" letter-spacing="2">SOFTWARE ENGINEER / GAME DEV / CREATIVE TECHNOLOGY</text>
-  <text x="70" y="286" fill="#686868" font-family="monospace" font-size="17" letter-spacing="4">CODE // GAMES // MUSIC // SYSTEMS</text>
-
-  <g fill="#ffffff">
-    <rect x="1080" y="84" width="38" height="4"/>
-    <rect x="1102" y="96" width="16" height="4"/>
-    <rect x="1070" y="108" width="48" height="4"/>
-    <rect x="1090" y="120" width="28" height="4"/>
-  </g>
+  <text x="32" y="414" fill="#4d4d4d" font-family="monospace" font-size="10" letter-spacing="2">CRT MODE // SIGNAL LOCKED // NO SAFE MODE</text>
 </svg>
