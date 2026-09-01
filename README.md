@@ -129,19 +129,14 @@ DATA / DEV
 
 <div align="center">
 
-## `> CONTRIBUTION_ACTIVITY_`
+## `> CONTRIBUTION_SIGNAL.exe`
 
-<img src="https://github-readme-stats.vercel.app/api?username=mhuy605-max&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=8b949e&icon_color=ffffff" height="155" alt="GitHub stats" />
+<img src="./assets/contribution-console.svg" width="100%" alt="indiedev.css CRT contribution console" />
+
+### `> LIVE_STREAK.signal`
+
 <img src="https://streak-stats.demolab.com?user=mhuy605-max&theme=transparent&hide_border=true&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=8b949e&currStreakNum=ffffff&sideNums=ffffff&dates=6e7681" height="155" alt="GitHub streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mhuy605-max&bg_color=00000000&color=8b949e&line=ffffff&point=ffffff&area=true&hide_border=true" width="96%" alt="Contribution activity graph" />
-
-```text
-╔══════════════════════════════════════════════════════╗
-║              NO SAFE MODE // KEEP BUILDING          ║
-╚══════════════════════════════════════════════════════╝
-```
-
-<sub>`indiedev.css // local build // EOF`</sub>
+<sub>`dynamic signal above // visual console self-hosted`</sub>
 
 </div>
