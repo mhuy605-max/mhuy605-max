@@ -6,15 +6,17 @@
 
 <br/><br/>
 
-<img src="./assets/profile-console.svg" width="100%" alt="indiedev.css profile and current build console" />
-
-<br/>
+<table><tr><td width="24%" align="center"><img src="./assets/mascot.svg" width="190" alt="indiedev.css UNIT-01 pixel mascot" /></td><td width="76%"><img src="./assets/profile-console.svg" width="100%" alt="indiedev.css profile console" /></td></tr></table>
 
 > **MANIFESTO //** I build things somewhere between functional and unforgettable — gameplay systems, full-stack platforms, creator tools, and weird experiments that probably started at night.
 
 <br/>
 
-<img src="./assets/projects-console.svg" width="100%" alt="indiedev.css selected projects console" />
+<img src="./assets/active-mission.svg" width="100%" alt="Active mission DARKROOM SYSTEM" />
+
+<br/>
+
+<img src="./assets/projects-console.svg" width="100%" alt="indiedev.css project cartridges" />
 
 <br/>
 
@@ -34,6 +36,6 @@
 
 <br/>
 
-`indiedev.css // code · games · music · systems // EOF`
+`indiedev.css // UNIT-01 // code · games · music · systems // EOF`
 
 </div>
