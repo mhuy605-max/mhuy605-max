@@ -1,111 +1,147 @@
 <div align="center">
 
-<img src="./assets/indiedev-banner.svg" width="100%" alt="indiedev.css — software engineer, game dev, creative technology" />
+<img src="./assets/indiedev-banner.svg" width="100%" alt="indiedev.css animated CRT terminal" />
 
-<br/>
-
-`[ HCMC ]` &nbsp; `BUILDING://GAMES` &nbsp; `BUILDING://SYSTEMS` &nbsp; `STATUS://ONLINE`
+`[ HCMC ]` &nbsp; `MODE://INDIE` &nbsp; `SIGNAL://LOCKED` &nbsp; `STATUS://BUILDING`
 
 </div>
 
-```css
-/* ~/profile/indiedev.css */
+```console
+$ whoami
 
-.indiedev {
-  role: software-engineer game-developer;
-  interests: games, systems, creative-technology;
-  philosophy: "make it work. make it feel right.";
-}
+handle    : indiedev.css
+role      : software engineer / game developer
+focus     : gameplay systems + full-stack products
+runtime   : code // games // music // systems
+status    : building in the dark_
 ```
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="52%" valign="top">
 
-### 01 // PLAYER.SYSTEMS
+### `> MANIFESTO.txt`
 
-**[base-fps-game-unity](https://github.com/mhuy605-max/base-fps-game-unity)**  
-`UNITY` `C#` `FPS`
+I build things that live somewhere between **functional** and **unforgettable**.
 
-First-person gameplay systems, interaction and player mechanics.
+Gameplay systems. Full-stack platforms. Tools for creators. Weird experiments that probably started at night.
 
-**[CyberpunkActionPlatformer](https://github.com/mhuy605-max/CyberpunkActionPlatformer)**  
-`UNITY` `2D` `GAMEPLAY`
-
-Cyberpunk action-platformer exploring movement, combat and game feel.
-
-**[ProjectBird2D](https://github.com/mhuy605-max/ProjectBird2D)**  
-`UNITY` `C#` `2D`
-
-Small-scale 2D game development and gameplay experimentation.
+```text
+> ship more games
+> build tools that help creators
+> make software with identity
+> leave something cool behind
+```
 
 </td>
-<td width="50%" valign="top">
+<td width="48%" valign="top">
 
-### 02 // SYSTEM.ARCHITECTURE
+### `> CURRENTLY_BUILDING.exe`
 
-**[horse-racing-system](https://github.com/mhuy605-max/horse-racing-system)**  
-`REACT` `SPRING` `MYSQL`
+```text
+DARKROOM SYSTEM
 
-Full-stack tournament operations, registrations, races and race-entry workflows.
+artist workflow / content lifecycle
+ASP.NET + React + TypeScript
 
-**[Horse-Race-Simulator-Web-Integration](https://github.com/mhuy605-max/Horse-Race-Simulator-Web-Integration)**  
-`UNITY` `WEB` `REST`
+[██████████████░░░░░░] evolving
+```
 
-Connecting a playable race simulation to web/backend infrastructure.
-
-**[artist-os](https://github.com/mhuy605-max/artist-os)**  
-`REACT` `ASP.NET` `CREATIVE TECH`
-
-A system for organizing music projects, content and release workflows.
+`creative tooling` `systems design` `music tech`
 
 </td>
 </tr>
 </table>
 
-<br/>
+---
 
-## `03 // TOOLCHAIN`
+## `> SELECTED_PROJECTS.exe`
+
+| SLOT | PROJECT | CLASS | SIGNAL |
+|:---:|---|---|---|
+| `01` | **[base-fps-game-unity](https://github.com/mhuy605-max/base-fps-game-unity)** | `FPS / UNITY / C#` | player mechanics + gameplay systems |
+| `02` | **[horse-racing-system](https://github.com/mhuy605-max/horse-racing-system)** | `FULL STACK` | tournament operations + race management |
+| `03` | **[Horse-Race-Simulator-Web-Integration](https://github.com/mhuy605-max/Horse-Race-Simulator-Web-Integration)** | `UNITY × WEB` | playable simulation connected to backend infrastructure |
+| `04` | **[CyberpunkActionPlatformer](https://github.com/mhuy605-max/CyberpunkActionPlatformer)** | `2D / UNITY` | movement + combat + game feel |
+| `05` | **[artist-os](https://github.com/mhuy605-max/artist-os)** | `CREATIVE TECH` | music projects + content lifecycle tooling |
+
+---
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+## `> TOOLCHAIN_`
 
 ```text
-┌─ GAME ───────────────────────────────────────────────┐
-│  Unity        C#          gameplay systems           │
-├─ FRONTEND ───────────────────────────────────────────┤
-│  React        TypeScript  Vite        Tailwind CSS   │
-├─ BACKEND ────────────────────────────────────────────┤
-│  ASP.NET      Java        Spring Boot REST APIs      │
-├─ DATA / DEV ─────────────────────────────────────────┤
-│  MySQL        Git         GitHub      VS Code        │
-└──────────────────────────────────────────────────────┘
+GAME
+├── Unity
+├── C#
+└── gameplay systems
+
+FRONTEND
+├── React
+├── TypeScript
+├── Vite
+└── Tailwind CSS
+
+BACKEND
+├── ASP.NET
+├── Java / Spring Boot
+└── REST APIs
+
+DATA / DEV
+├── MySQL
+├── Git / GitHub
+└── VS Code
 ```
 
-## `04 // CURRENT_PROCESS`
+</td>
+<td width="50%" valign="top">
+
+## `> BUILD_LOOP_`
 
 ```text
-[01] prototype the interaction
-       ↓
-[02] build the system
-       ↓
-[03] break the system
-       ↓
-[04] understand why
-       ↓
-[05] rebuild it better
+        ┌──────────────┐
+        │  01 / IDEA   │
+        └──────┬───────┘
+               ↓
+        ┌──────────────┐
+        │ 02 / BUILD   │
+        └──────┬───────┘
+               ↓
+        ┌──────────────┐
+        │ 03 / BREAK   │
+        └──────┬───────┘
+               ↓
+        ┌──────────────┐
+        │ 04 / LEARN   │
+        └──────┬───────┘
+               ↓
+             REPEAT ↻
 ```
+
+</td>
+</tr>
+</table>
+
+---
 
 <div align="center">
 
-### `// CONTRIBUTION SIGNAL`
+## `> CONTRIBUTION_ACTIVITY_`
 
 <img src="https://github-readme-stats.vercel.app/api?username=mhuy605-max&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=8b949e&icon_color=ffffff" height="155" alt="GitHub stats" />
 <img src="https://streak-stats.demolab.com?user=mhuy605-max&theme=transparent&hide_border=true&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=8b949e&currStreakNum=ffffff&sideNums=ffffff&dates=6e7681" height="155" alt="GitHub streak" />
 
-<br/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=mhuy605-max&bg_color=00000000&color=8b949e&line=ffffff&point=ffffff&area=true&hide_border=true" width="96%" alt="Contribution activity graph" />
 
 ```text
-NO SAFE MODE // KEEP BUILDING
+╔══════════════════════════════════════════════════════╗
+║              NO SAFE MODE // KEEP BUILDING          ║
+╚══════════════════════════════════════════════════════╝
 ```
 
-<sub>indiedev.css © local build // code · games · music · systems</sub>
+<sub>`indiedev.css // local build // EOF`</sub>
 
 </div>
