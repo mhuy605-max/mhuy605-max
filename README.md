@@ -15,12 +15,12 @@
 <br/>
 
 <!-- 02 // ACTIVE QUEST -->
-<img src="./assets/active-mission.svg" width="100%" alt="Active quest DARKROOM SYSTEM" />
+<img src="./assets/active-mission.svg?v=2" width="100%" alt="Active quest Indie Dev System" />
 
 <br/>
 
 <!-- 03 // INVENTORY -->
-<img src="./assets/projects-console.svg" width="100%" alt="indiedev.css project cartridges" />
+<img src="./assets/projects-console.svg?v=2" width="100%" alt="indiedev.css project cartridges" />
 
 <table>
 <tr>
