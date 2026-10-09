@@ -10,7 +10,7 @@
 <!-- 01 // PLAYER PROFILE -->
 <table><tr><td width="24%" align="center"><img src="./assets/mascot.svg" width="190" alt="indiedev.css UNIT-01 pixel mascot" /></td><td width="76%"><img src="./assets/profile-console.svg" width="100%" alt="indiedev.css player profile" /></td></tr></table>
 
-> **MANIFESTO //** I build things somewhere between functional and unforgettable — gameplay systems, full-stack platforms, creator tools, and weird experiments that probably started at night.
+> **MANIFESTO //** I build things somewhere between functional and unforgettable — Unity games, full-stack platforms, Android apps, creator tools, and music. Most of my projects start with a late-night idea and turn into something real.
 
 <br/>
 
@@ -24,11 +24,14 @@
 
 <table>
 <tr>
-<td align="center"><a href="https://github.com/mhuy605-max/base-fps-game-unity"><b>01 // BASE FPS</b></a><br/><sub>LOAD CARTRIDGE ↗</sub></td>
-<td align="center"><a href="https://github.com/mhuy605-max/horse-racing-system"><b>02 // HORSE RACING</b></a><br/><sub>LOAD CARTRIDGE ↗</sub></td>
-<td align="center"><a href="https://github.com/mhuy605-max/Horse-Race-Simulator-Web-Integration"><b>03 // RACE SIM WEB</b></a><br/><sub>LOAD CARTRIDGE ↗</sub></td>
+<td align="center" width="33%"><a href="https://github.com/mhuy605-max/base-fps-game-unity"><b>01 // BASE FPS</b></a><br/><sub>LOAD CARTRIDGE ↗</sub></td>
+<td align="center" width="33%"><a href="https://github.com/mhuy605-max/horse-racing-system"><b>02 // HORSE RACING</b></a><br/><sub>LOAD CARTRIDGE ↗</sub></td>
+<td align="center" width="33%"><a href="https://github.com/mhuy605-max/Horse-Race-Simulator-Web-Integration"><b>03 // RACE SIM WEB</b></a><br/><sub>LOAD CARTRIDGE ↗</sub></td>
+</tr>
+<tr>
 <td align="center"><a href="https://github.com/mhuy605-max/CyberpunkActionPlatformer"><b>04 // CYBERPUNK</b></a><br/><sub>LOAD CARTRIDGE ↗</sub></td>
 <td align="center"><a href="https://github.com/mhuy605-max/artist-os"><b>05 // ARTIST OS</b></a><br/><sub>LOAD CARTRIDGE ↗</sub></td>
+<td align="center"><a href="https://github.com/mhuy605-max/POS-SYSTEM"><b>06 // DAKAO IN BILL</b></a><br/><sub>LOAD CARTRIDGE ↗</sub></td>
 </tr>
 </table>
 
@@ -47,6 +50,6 @@
 <!-- 06 // EOF -->
 <img src="./assets/system-status.svg" width="100%" alt="indiedev.css system status end screen" />
 
-`indiedev.css // UNIT-01 // code · games · music · systems`
+`indiedev.css // UNIT-01 // games · apps · systems · music`
 
 </div>
